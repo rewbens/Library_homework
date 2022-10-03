@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-family: futura;
+    background-color: #f1f1f0; 
+    height: 6em;
+}
+
+.logo{
+    font-size: 2em;
+    color: black;
+    align-items: center;
+    padding-left: 1em;
+    padding-top: .25em; 
+}
+
+ul {
+    list-style: none;
+}
+
+/*li{
+    
+}
+
+
+

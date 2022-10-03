@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="/library">
+<div>
+    <label for="author">Author:</label>
+    <input id="author" type="text" name="author">
+</div>
+
+<div>
+    <label for="title">Book Title:</label>
+    <input type="title" type="title" name="title">
+</div>
+
+<div>
+    <label for="isbn">ISBN:</label>
+    <input type="isbn" type="isbn" name="isbn">
+</div>
+
+<div>
+    <label for="genre">Genre:</label>
+    <input type="genre" type="genre" name="genre">
+</div>
+
+<div>
+    <label for="book_description">Book Description</label>
+    <input type="book_description" type="isbn" name="isbn">
+</div>
+    <input type="submit">
+</form>
+{% endblock %}
